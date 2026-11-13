@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('showall')},6000);addEventListener('error',function(e){var d=document.createElement('div');d.style.cssText='position:fixed;left:0;right:0;bottom:0;z-index:999;background:#7a2e1d;color:#fff;padding:10px 14px;font:14px sans-serif';d.textContent='LifeOS error: '+e.message+' (line '+e.lineno+')';document.documentElement.appendChild(d)})</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LifeOS – Close the gap between where you are and where you want to be</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="intro" role="presentation" title="Click to skip">
+  <div id="introMark"></div>
+  <div class="word" id="word"></div>
+  <small>Name where you are. Name where you want to be.</small>
+</div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="LifeOS home"><span id="logoMark"></span><span>Life<b>OS</b></span></a>
+    <nav aria-label="Main"><a href="#features">Features</a><a href="#how">How it works</a><a href="#try">Try it</a><a href="#faq">Questions</a></nav>
+    <button class="ico" id="theme" aria-label="Switch light or dark theme"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg></button>
+    <button class="btn ghost" id="hauth">Log in</button>
+    <a class="btn" href="#try">Open dashboard</a>
+    <div class="pwrap"><button class="avb" id="avb" aria-label="Profile" aria-expanded="false"></button><div class="pop" id="pop" role="dialog" aria-label="Your profile"></div></div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Take control. Live intentionally.</p><h1>Your life has a current state and an <em>ideal state.</em></h1>
+      <p class="lead">LifeOS is one calm workspace for your goals, habits, focus time and journal. Write down where you are, write down where you want to be, then close the gap with steps you can check off.</p>
+      <p class="rot">Build better <b id="rot">routines</b>.</p><div class="cta"><a class="btn" href="#try">Try the dashboard</a><a class="btn ghost" href="#how">See how it works</a></div>
+    </div>
+    <div class="big" id="heroMark"></div>
+  </div>
+</section>
+
+<section id="features"><div class="wrap">
+  <div class="sh rv"><h2>Everything you need to move forward, in one place</h2><p>Six tools that work together, so you spend less time organising your life and more time living it.</p></div>
+  <div class="grid" id="fgrid"></div>
+</div></section>
+
+<section id="how"><div class="wrap">
+  <div class="sh rv"><h2>Three steps from where you are to where you want to be</h2></div>
+  <div class="steps rv">
+    <div class="step"><b>1</b><h3>Name your current state</h3><p>Describe honestly where you stand today: the skills you have, the habits you keep, the results you see.</p></div>
+    <div class="step"><b>2</b><h3>Name your ideal state</h3><p>Describe the outcome you want in clear, specific words, so you will know when you have reached it.</p></div>
+    <div class="step"><b>3</b><h3>Close the gap with steps</h3><p>Break the distance into small steps. Check each one off and watch your progress bar fill.</p></div>
+  </div>
+</div></section>
+
+<section id="try"><div class="wrap">
+  <div class="sh rv"><h2>Try LifeOS right here</h2><p>This is a working dashboard. Add goals, tick habits, run a focus session or write a journal entry. Everything saves in your own browser and never leaves your device.</p></div>
+  <div class="app rv" id="appShell">
+    <div class="side" id="side" role="tablist"></div>
+    <div id="pane"></div>
+  </div>
+</div></section>
+<section id="benefits"><div class="wrap"><div class="sh rv"><h2>Why people use LifeOS</h2></div><div class="grid">
+<article class="card rv"><h3>Clarity</h3><p>See exactly where you stand today and what the next step is.</p></article>
+<article class="card rv"><h3>Consistency</h3><p>Streaks and weekly rows make small daily actions visible.</p></article>
+<article class="card rv"><h3>Calm focus</h3><p>Work on one task at a time with a timer that keeps sessions short and clear.</p></article>
+<article class="card rv"><h3>Visible progress</h3><p>A documented Life Score and simple charts show how you are improving.</p></article></div></div></section>
+<section id="voices"><div class="wrap"><div class="sh rv"><h2>What users might say</h2><p>Sample content for demonstration. These are not real customer reviews.</p></div><div class="grid">
+<article class="card rv"><p>“I finally see the gap between my goals and my daily habits.”</p><p class="gap" style="margin-top:12px">Sample user, student</p></article>
+<article class="card rv"><p>“The priority score tells me why a task comes first, so I stop second-guessing.”</p><p class="gap" style="margin-top:12px">Sample user, designer</p></article>
+<article class="card rv"><p>“Short focus sessions and streaks keep me going on busy weeks.”</p><p class="gap" style="margin-top:12px">Sample user, engineer</p></article></div></div></section>
+<section id="faq"><div class="wrap"><div class="sh"><h2>Questions answered</h2><p>Quick answers about how LifeOS works.</p></div><div class="faq"><details><summary>Is the login secure?</summary><p>It is a demo login. Accounts and hashed passwords are stored only in this browser, so it does not replace a real server, but nobody else can see your data.</p></details><details><summary>Is LifeOS free to try?</summary><p>Yes. The dashboard above runs entirely in your browser and needs no account.</p></details><details><summary>Where is my data stored?</summary><p>Only in your browser’s local storage on this device. Nothing is sent to a server.</p></details><details><summary>Is the assistant a real AI?</summary><p>Yes, on the published page it is powered by Claude once you give permission, and every reply is labelled. If AI is unavailable, for example in a downloaded copy of the file, it uses a clearly labelled demo mode unless you add your own API key in Settings.</p></details><details><summary>How is task priority decided?</summary><p>With a visible formula: urgency 45%, importance 40% and effort 15%. Every task shows its calculation.</p></details><details><summary>How is the Life Score calculated?</summary><p>From tasks completed (30%), goal progress (25%), habit consistency (25%) and weekly focus time (20%).</p></details></div></div></section>
+</main>
+
+<footer><div class="wrap"><a class="brand" href="#top"><span id="footMark"></span><span>Life<b>OS</b></span></a><p>Built by Shagun Bhardwaj for people who want clear goals and calm days. Your data stays on your device. <span style="opacity:.7">Version 3.3 · 13 Nov 2026</span></p>
+    <div class="soc"><a href="https://github.com/ShagunBhardwaj12-hub" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/shagun-bhardwaj-318a60427" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
+
+<div class="modal" id="auth"><div class="mbox" role="dialog" aria-modal="true" aria-labelledby="amt"><button class="x" id="aclose" aria-label="Close" style="position:absolute;right:16px;top:14px;background:none;border:0;font-size:20px">✕</button>
+<h3 id="amt">Welcome back</h3><div class="chips" id="amode" style="justify-content:start;margin:0"><button class="chip on" data-m="in" type="button">Log in</button><button class="chip" data-m="up" type="button">Sign up</button></div>
+<form id="af" novalidate><label class="up">Name<input name="n" maxlength="30" autocomplete="name" placeholder="Shagun Bhardwaj"></label><label>Email<input name="e" type="email" autocomplete="email" placeholder="shagun@example.com"></label><label>Password<input name="p" type="password" autocomplete="current-password"></label><p class="aerr" id="aerr" role="alert"></p><button class="btn" id="asub">Log in</button></form>
+<p class="note" style="margin:0">Accounts are saved only in this browser. This is a demo login, not a server, and passwords are stored as hashes.</p></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
