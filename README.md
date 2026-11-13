@@ -75,7 +75,8 @@ Everything is saved in your browser's local storage. Accounts are a demo login k
 ## 👩‍💻 Author
 
 **Shagun Bhardwaj**
-
+click the button to view my profile :) 
 [![GitHub](https://img.shields.io/badge/GitHub-ShagunBhardwaj12--hub-black?logo=github)](https://github.com/ShagunBhardwaj12-hub) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shagun%20Bhardwaj-blue?logo=linkedin)](https://www.linkedin.com/in/shagun-bhardwaj-318a60427)
 
 If you like this project, give it a ⭐ on GitHub.
+Thankyou !!!!
