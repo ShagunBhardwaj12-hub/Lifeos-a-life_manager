@@ -1,61 +1,81 @@
-# LifeOS
+# 🌱 LifeOS
 
-**Take control. Live intentionally.**
+### Take control. Live intentionally.
 
-LifeOS is a personal life management website. It helps you name where you are, name where you want to be, and close the gap with steps you can check off. It is built with plain HTML, CSS and JavaScript, so there is nothing to install and no build step.
+**LifeOS** is a calm, all-in-one life management website. Name where you are, name where you want to be, and close the gap with steps you can check off.
 
-Live demo: https://shagunbhardwaj12-hub.github.io/lifeos/
+### 🚀 [**Open the live site**](https://shagunbhardwaj12-hub.github.io/Lifeos-a-life_manager/)
 
-## Features
+![HTML](https://img.shields.io/badge/HTML-5-orange) ![CSS](https://img.shields.io/badge/CSS-3-informational) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![No build](https://img.shields.io/badge/build-none-success) ![Hosted on](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-lightgrey)
 
-- Animated intro, a landing page with features, how it works, benefits and FAQ
-- Sign up, log in and log out with a profile page (photo, name, bio, stats, password change)
-- Tasks and planner with a transparent, rule-based priority score and a "Why this priority?" explanation
-- Calendar view that shows tasks and goal target dates by month, with quick add for any day
-- Goals with a current state, an ideal state, milestones and progress bars
-- Habit tracker (daily or weekly) with streaks
-- Focus timer with custom length and session history
-- Journal with mood tracking
-- Analytics with a documented Life Score
-- AI assistant with a clearly labelled demo mode, and real AI when you add your own API key
-- Light theme by default and a dark theme with the moon button
-- Responsive layout for laptop, tablet and phone
+---
 
-## Built with
+## ✨ What can it do?
+
+| | Feature | What you get |
+|---|---|---|
+| 🎬 | **Animated intro** | Blocks build up into the LifeOS logo, then the site slides in |
+| 👤 | **Login and profile** | Sign up, log in, log out, upload a photo, edit your name and bio, change your password |
+| ✅ | **Smart tasks** | Every task gets a priority score from deadline, importance and effort, with a "Why this priority?" explanation |
+| 📅 | **Calendar view** | Tasks and goal target dates by month, with quick add for any day |
+| 🎯 | **Goals** | Write your current state and ideal state, add milestones, watch the progress bar fill |
+| 🔥 | **Habit tracker** | Daily or weekly habits with streaks |
+| ⏱️ | **Focus timer** | 15, 25, 50 minutes or your own length, with session history |
+| 📝 | **Journal** | Pick a mood and write a few lines each day |
+| 📊 | **Analytics** | A documented Life Score and simple charts for tasks, habits and focus |
+| 🤖 | **AI assistant** | Plans your day, picks your first task, breaks down goals and suggests steps |
+| 🌗 | **Light and dark theme** | Calm light theme by default, dark theme with the moon button |
+| 📱 | **Responsive** | Works on laptop, tablet and phone |
+
+## 🧠 How the priority score works
+
+No hidden magic. Each task is scored with a visible formula:
+
+**Urgency 45% + Importance 40% + Effort 15%**
+
+Tasks that are due soon, important and quick to finish rise to the top, and every task shows its own calculation.
+
+## 🤖 About the AI assistant
+
+- Without a key, the assistant runs in a clearly labelled **demo mode** that uses simple local rules on your own data.
+- To use real AI, open **Settings → Connect your own AI key** and paste an Anthropic API key. The key stays in your browser and is sent only to Anthropic.
+- Never write an API key into the code and never commit one to GitHub.
+
+## 🛠️ Built with
 
 - HTML
 - CSS
 - JavaScript (no frameworks, no build tools)
 
-## Project structure
+## 📁 Project structure
 
-- index.html: page structure
-- style.css: all styling and both themes
-- script.js: all behaviour (dashboard modules, accounts, calendar, AI assistant)
+```
+Lifeos-a-life_manager/
+├── index.html   page structure
+├── style.css    all styling and both themes
+└── script.js    dashboard, accounts, calendar, AI assistant
+```
 
-## Run it on your computer
+## ▶️ Run it on your computer
 
 1. Download or clone this repository.
 2. Keep the three files in the same folder.
-3. Open index.html in Chrome, Edge or Firefox.
+3. Open `index.html` in Chrome, Edge or Firefox.
 
-## Deploy with GitHub Pages
+## 🌍 Deploy with GitHub Pages
 
-1. Open Settings, then Pages.
-2. Choose Deploy from a branch, select the main branch and the root folder, then Save.
-3. Your site goes live at https://YOUR-USERNAME.github.io/lifeos/ after about a minute.
+1. Go to **Settings → Pages**.
+2. Choose **Deploy from a branch**, then `main` and `/ (root)`, and click **Save**.
+3. Your site goes live in about a minute.
 
-## AI assistant
+## 🔒 Data and privacy
 
-Without a key, the assistant runs in a clearly labelled demo mode that uses simple local rules on your own tasks, goals and habits. To use real AI, open Settings, choose Connect your own AI key, and paste your Anthropic API key. The key stays in your browser and is sent only to Anthropic. Never write an API key into the code or commit one to GitHub.
+Everything is saved in your browser's local storage. Accounts are a demo login kept only in your browser, with passwords stored as hashes. It does not replace a real server, and clearing your browser data removes your information.
 
-## Data and privacy
+## 👩‍💻 Author
 
-Everything is saved in your browser's local storage. Accounts are a demo login kept only in your browser, with passwords stored as hashes. It does not replace a real server. Clearing your browser data removes your information.
+**Shagun Bhardwaj**
 
-## Author
+[![GitHub](https://img.shields.io/badge/GitHub-ShagunBhardwaj12--hub-black?logo=github)](https://github.com/ShagunBhardwaj12-hub) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shagun%20Bhardwaj-blue?logo=linkedin)](https://www.linkedin.com/in/shagun-bhardwaj-318a60427)
 
-Shagun Bhardwaj
-
-- GitHub: https://github.com/ShagunBhardwaj12-hub
-- LinkedIn: https://www.linkedin.com/in/shagun-bhardwaj-318a60427
+If you like this project, give it a ⭐ on GitHub.
